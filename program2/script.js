@@ -10,12 +10,16 @@ function numtypeFunction(){
     }
     if(s==n){
         alert("perfect")
+        document.getElementById("numtype").innerHTML= "the given number is perfect"
     }
     if(s>n){
        alert("abundant")
+       document.getElementById("numtype").innerHTML= "the given number is abundant"
     }
     if(s<n){
       alert("deficiant")
+      document.getElementById("numtype").innerHTML= "the given number is deficiant"
+      document.getElementById("numtype").innerHTML= "the given number is deficiant"
     }
 
   
